@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+    <title>Marmeto-Assignment</title>
+
+</head>
+
+<body>
+    <div class="container">
+            <!-- left-side -->
+            <div class="hero left-side">
+                <div class="image-0 Product-image"></div>
+                <div class="Thumbnails-container">
+                    <div class="Thumbnail image-1"></div>
+                    <div class="Thumbnail image-2"></div>
+                    <div class="Thumbnail image-3"></div>
+                    <div class="Thumbnail image-4"></div>
+                </div>
+            </div>
+            <!-- right-side -->
+            <div class="hero right-side">
+                <p id="Product-vendor"></p>
+                <h1 id="Product-title"></h1>
+                <div class="border-line"></div>
+                <div class="price-detail">
+                    <div class="product-price">
+                        <h1 id="price"></h1>
+                        <p id="percent-off"></p>                         
+                    </div>
+                    <p id="compair-at-price"></p>
+                </div>
+                <div class="border-line"></div>
+                <div class="color-selecter"></div>
+                <div class="border-line"></div>
+                <div class="size-selector"></div>
+                <div class="buy">
+                    <div class="quantity-selector">
+                        <span class="button" id="remove"><span class="material-symbols-outlined">remove</span></span>
+                        <span id="quantity">1</span>
+                        <span class="button" id="add"><span class="material-symbols-outlined">add </span></span>
+                    </div>
+                    <div class="add-to-cart button"><span class="material-symbols-outlined">shopping_bag</span>Add To Cart</div>
+                </div>
+                <div id="product-added" class="disable"></div>
+                <div class="border-line"></div>
+                <div class="description"></div>
+            </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
